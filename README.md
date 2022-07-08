@@ -26,8 +26,8 @@ This repository contains the following files and folders:
 - requirement.txt: contains all the required packages to run the notebook
 - column_names: contains all column names with explanations 
 - data folder: contains house sales dataset and location of the golf resort table
-- maps folder: contains all four geographical maps 
--
+- maps folder: contains all three geographical maps as .html files 
+
 
 
 
