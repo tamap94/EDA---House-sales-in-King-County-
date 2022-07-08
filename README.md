@@ -1,36 +1,34 @@
-# ds-project-template
+# Individual EDA project - Analysing house sales data in King County (USA)
 
-Template for creating ds simple projects
+In the repository you find all the data for the analysis of the datatable containing house sales data in King County.
+The added requirement file contain all the libraries that are needed to execute the EDA_final analysis notebook. 
 
 ## Requirements
 
-- pyenv
-- python==3.9.8
+- python == 3.9.8 
+- jupyterlab == 3.4.3
+- pandas == 1.4.3
+- numpy == 1.23.0
+- matplotlib == 3.5.2
+- seaborn == 0.11.2
+- plotly == 5.9.0
+- folium == 0.12.1.post1
+- brance == 0.5.0
 
-## Setup
+## Overview 
 
-One of the first steps when starting any data science project is to create a virtual environment. For this project you have to create this environment from scratch yourself. However, you should be already familiar with the commands you will need to do so. The general workflow consists of... 
+This repository contains all the raw data and the EDA analysis notebook to filter the dataset King_County_House_prices_dataset.csv according to the conditions given by an artificial stakeholder. 
+In this case, the stakeholder wanted to buy a house and had certain requirements for his ideal home. In the notebook the dataset was filtered according to his conditions and in the end geographical maps were generated that show the location of the sold houses that might overlap with his criterias. The geographical maps are stored in the folder called 'maps'. 
 
-* setting the python version locally to 3.9.8
-* creating a virtual environment using the `venv` module
-* activating your newly created environment 
-* upgrading `pip` (This step is not absolutely necessary, but will save you trouble when installing some packages.)
-* installing the required packages via `pip`
+This repository contains the following files and folders: 
 
-At the end, you want to make sure that people who are interested in your project can create an identical environment on their own computer in order to be able to run your code without running into errors. Therefore you can create a `requirements file` and add it to your repository. You can create such a file by running the following command: 
+- EDA_final: Notebook for the EDA of the house sales dataset 
+- requirement.txt: contains all the required packages to run the notebook
+- column_names: contains all column names with explanations 
+- data folder: contains house sales dataset and location of the golf resort table
+- maps folder: contains all four geographical maps 
+-
 
-```bash
-pip freeze > requirements.txt
-```
 
-*Note: In rare case such a requirements file created with `pip freeze` might not ensure that another (especially M1 chip) user can install and execute it properly. This can happen if libraries need to be compiled (e.g. SciPy). Then it also depends on environment variables and the actual system libraries.*
 
-### Unit testing (Optional)
 
-If you write python scripts for your data processing methods, you can also write unit tests. In order to run the tests execute in terminal:
-
-```bash
-pytest
-```
-
-This command will execute all the functions in your project that start with the word **test**.
