@@ -1,7 +1,7 @@
 # Individual EDA project - Analysing house sales data in King County (USA)
 
 In the repository you find all the data for the analysis of the datatable containing house sales data in King County.
-The added requirement file contain all the libraries that are needed to execute the EDA_final analysis notebook. 
+The added requirement file contain all the libraries that are needed to execute the EDA_final analysis notebook. To display the geographical maps use the nbviewer to open the notebook: http://nbviewer.org/github/tamap94/EDA---House-sales-in-King-County-/blob/main/EDA_final.ipynb. 
 
 ## Requirements
 
@@ -27,6 +27,7 @@ This repository contains the following files and folders:
 - column_names: contains all column names with explanations 
 - data folder: contains house sales dataset and location of the golf resort table
 - maps folder: contains all three geographical maps as .html files 
+
 
 
 
